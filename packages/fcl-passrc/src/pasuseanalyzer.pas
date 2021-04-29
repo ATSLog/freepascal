@@ -1104,7 +1104,8 @@ begin
     begin
     // analyze whole program
     if not Resolver.IsFullySpecialized(DeclProc) then
-      RaiseHalfSpecialized;
+      //RaiseHalfSpecialized;
+      Exit(True);
     end
   else
     begin
@@ -1303,8 +1304,9 @@ begin
     end
   else if C=TPasGenericTemplateType then
     begin
-    if ScopeModule=nil then
-      RaiseNotSupported(20190817110226,El);
+    //if ScopeModule=nil then
+      //RaiseNotSupported(20190817110226,El);
+    Exit;
     end
   else
     begin
