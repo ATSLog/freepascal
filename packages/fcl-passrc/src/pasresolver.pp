@@ -16820,7 +16820,7 @@ var
       Last:=TPasElement(List[i]);
       if Last is TPasGenericType then
         begin
-        if (Last.CustomData<>nil) then
+        if (Last.CustomData<>nil) and (Last.CustomData is TPasGenericScope) then
           begin
           GenScope:=Last.CustomData as TPasGenericScope;
           if GenScope.GenericStep>=psgsInterfaceParsed then
