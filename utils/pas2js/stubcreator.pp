@@ -369,7 +369,7 @@ begin
   FLineNumberWidth:=4;
   FIndentSize:=2;
   FExtraUnits:='';
-  FOptions:=[woNoImplementation,woNoExternalClass,woNoExternalVar,woNoExternalFunc,woNoAsm,woSkipPrivateExternals,woAlwaysRecordHelper,woSkipHints];
+  FOptions:=[woNoExternalClass,woNoExternalVar,woNoExternalFunc,woNoAsm,woSkipPrivateExternals,woAlwaysRecordHelper,woSkipHints];
 end;
 
 destructor TStubCreator.Destroy;

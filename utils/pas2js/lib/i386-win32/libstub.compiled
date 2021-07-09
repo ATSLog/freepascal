@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\FPCNovo\fpc\bin\i386-win32\fpc.exe" Date="1390955893"/>
+  <Params Value=" -MObjFPC -Scghi -WR -O1 -g -gl -l -vewnhibq -FiC:\FPCNovo\fpcsrc\utils\pas2js\lib\i386-win32 -FuC:\FPCNovo\fpcsrc\packages\fcl-passrc\src -FuC:\FPCNovo\fpcsrc\packages\fcl-passrc\src -FuC:\FPCNovo\fpcsrc\utils\pas2js\ -FUC:\FPCNovo\fpcsrc\utils\pas2js\lib\i386-win32\ -FEC:\FPCNovo\fpcsrc\utils\pas2js\ -oC:\FPCNovo\fpcsrc\utils\pas2js\libstub.dll libstub.pp"/>
+</CONFIG>

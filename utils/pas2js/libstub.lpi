@@ -27,6 +27,7 @@
       <Unit>
         <Filename Value="libstub.pp"/>
         <IsPartOfProject Value="True"/>
+        <UnitName Value="stub"/>
       </Unit>
       <Unit>
         <Filename Value="stubcreator.pp"/>
@@ -40,6 +41,8 @@
       <Filename Value="libstub"/>
     </Target>
     <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="C:/FPCNovo/fpcsrc/packages/fcl-passrc/src/;C:/FPCNovo/fpcsrc/packages/fcl-passrc/src/"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <CodeGeneration>
